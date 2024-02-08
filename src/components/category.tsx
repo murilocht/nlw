@@ -1,5 +1,5 @@
-import clsx from "clsx";
-import { Pressable, PressableProps, Text } from "react-native";
+import clsx from "clsx"
+import { Pressable, PressableProps, Text } from "react-native"
 
 type CategoryProps = PressableProps & {
 	title: string,
@@ -14,5 +14,5 @@ export function Category({ title, isSelected = false, ...rest }: CategoryProps) 
 		>
 			<Text className="text-slate-100 font-subtitle text-sm">{title}</Text>
 		</Pressable>
-	);
+	)
 }

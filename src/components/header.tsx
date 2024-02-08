@@ -1,6 +1,6 @@
-import { Feather } from "@expo/vector-icons";
-import { Image, Text, TouchableOpacity, View } from "react-native";
-import colors from "tailwindcss/colors";
+import { Feather } from "@expo/vector-icons"
+import { Image, Text, TouchableOpacity, View } from "react-native"
+import colors from "tailwindcss/colors"
 
 type HeaderProps = {
 	title: string,
@@ -24,5 +24,5 @@ export function Header({ title, cartQuantity = 0 }: HeaderProps) {
 				</TouchableOpacity>
 			)}
 		</View>
-	);
+	)
 }
